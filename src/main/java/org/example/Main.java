@@ -24,7 +24,7 @@ public class Main {
             threads[i].start();
         }
 
-        // Ждем завершения всех потоков
+        // Ждем завершения всех потоков.
         for (Thread thread : threads) {
             thread.join();
         }
